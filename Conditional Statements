@@ -1,0 +1,27 @@
+include<stdio.h>
+main()
+{
+printf("EAT??:- ");
+int x=0;
+scanf("%d", &x);
+switch(x)
+{
+   case 1:- printf("PIZZA\n");
+            printf("PRICE:-239");
+            break;
+   case 2:- printf("BURGER\n");
+            printf("Price:- 129");
+            break;
+   case 3:- printf("PASTA\n");
+            printf("Price:- 179");
+            break;
+   case 4:- printf("FRENCH FRIES 🍟\n");
+            printf("Price:- 99");
+            break;
+   case 5:- printf("SANDWICH\n");
+            printf("PRICE:- 149");
+            break;
+   default:- printf("NOT SELECTED ANY NUMBER");   
+}
+return 0;
+}
