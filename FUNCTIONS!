@@ -2,5 +2,6 @@
 main()
 {
 	int a=1,b=2,c=3,d=4;
-	printf("THE SUM OF THE DIGITS ARE: %d",a+b+c+d);
+	printf("Input number: 1234\n");
+	printf("Output: %d",a+b+c+d);
 }
